@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="video.css " type="text/css">
+    <link rel="stylesheet" href="header.css" type="text/css">
+    <link rel="stylesheet" href="general.css" type="text/css">
+    <link rel="stylesheet" href="sidebar.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body style="height: 3000px;" class="body">
+    <header>
+             <div class="header-left">
+            <button  class="navbtn"><svg height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path></svg>
+            </button>
+            <!-- <img class="navbtn" src="" alt=""> -->
+            
+            <img class="youtube-logo" src="images/icon/YouTube-Logo.wine (2).svg" alt="">
+
+            </div>
+            <div class="header-center">
+                  <input class="search-bar" type="text" placeholder="Search">
+                  
+                   <button class="search-btn"  ><svg class="search-btn-icon" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; "><path d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"></path></svg>
+                 <div class="toltip">Search</div>    
+                </button>
+                   <button class="voice-btn" > <svg class="voice-btn-icon" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; "><path d="M12 3c-1.66 0-3 1.37-3 3.07v5.86c0 1.7 1.34 3.07 3 3.07s3-1.37 3-3.07V6.07C15 4.37 13.66 3 12 3zm6.5 9h-1c0 3.03-2.47 5.5-5.5 5.5S6.5 15.03 6.5 12h-1c0 3.24 2.39 5.93 5.5 6.41V21h2v-2.59c3.11-.48 5.5-3.17 5.5-6.41z"></path></svg>
+                    <div class="toltip">Search with voice</div>    
+   
+                </button>
+            </div>
+            <div class="header-right">
+               <button class="create-btn" >
+                <svg class="create-btn-icon" style="pointer-events: none; display: block; " viewBox="0 0 24 24" width="24" focusable="false"><path d="M14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2zm3-7H3v12h14v-6.39l4 1.83V8.56l-4 1.83V6m1-1v3.83L22 7v8l-4-1.83V19H2V5h16z"></path></svg>
+                <div class="toltip">createt post</div>    
+
+               </button>
+               <button class="notification-btn">
+                <svg class="notificatioon-btn-icon" enable-background="new 0 0 24 24" viewBox="0 0 24 24" focusable="false" style="pointer-events: none; display: block; "><path d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z"></path></svg>
+                   <div class="notification-cnt">9+</div>
+                   <div class="toltip">notification</div>    
+
+                </button >
+               <img class="author-logo" src="images/icon/author logo.jpg" alt="">
+           </div>   
+    </header>
+    
+   <div class="sidebar"> 
+    <div class="sidebar-link">
+        
+        <svg enable-background="new 0 0 24 24" height="27px" viewBox="0 0 24 24" width="27px" focusable="false" style="pointer-events: none; display: block; "><g><path d="M4 21V10.08l8-6.96 8 6.96V21h-6v-6h-4v6H4z"></path></g></svg>
+        <div>Home</div>
+    
+    </div>
+    <div class="sidebar-link">
+        <svg height="27px" viewBox="0 0 24 24" width="27px" focusable="false" style="pointer-events: none; display: block; "><path d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"></path></svg>
+                <!-- <p>Shorts</p> -->
+                <div>Shorts</div>
+
+    </div>
+    <div class="sidebar-link">
+ 
+        <svg enable-background="new 0 0 24 24" height="27px" viewBox="0 0 24 24" width="27px" focusable="false" style="pointer-events: none; display: block; "><path d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z"></path></svg>
+        <div>Subscriptions</div>
+    
+
+    </div>
+    <div class="sidebar-link">
+ 
+        <svg enable-background="new 0 0 24 24" height="27px" viewBox="0 0 24 24" width="27px" focusable="false" style="pointer-events: none; display: block; "><path d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z"></path></svg>
+       <div>Library</div>
+ 
+    </div>
+    <!-- <div class="sidebar-link"></div>
+    <div class="sidebar-link"></div> -->
+
+
+   </div>
+
+
+
+    <div class="youtube-video">
+        <!-- <div class="video-container">
+            <div  class="thumbnail-div">
+             <img class="thumbnail" src="images/thumbnail/thumb1.webp" alt="">
+             <div class="video-time">7:44:12</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="images/profile/profile1.jpg" alt="" class="logo">
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="images/profile/profile1.jpg" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">SuperSimpleDev</div>
+                         <div class="about-channel-details-subscribe-count">15M Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">30 Minutes of cry night | Slowed Reverb | LO-fi creation ||</p>
+                 <p class="video-author">SuperSimpleDev</p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+                 
+            </div>
+            
+         </div> -->
+
+         <div class="video-container">
+            <div class="thumbnail-div">
+             <img class="thumbnail" src="images/thumbnail/thumb2.webp" alt="">
+             <div class="video-time">30:12</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="images/profile/profile2.jpg" alt="" class="logo">
+               
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="images/profile/profile2.jpg" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">SuperSimpleDev</div>
+                         <div class="about-channel-details-subscribe-count">1.5M Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">30 Minutes of cry night | Slowed Reverb | LO-fi creation ||</p>
+                 <p class="video-author">SuperSimpleDev</p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+         
+            </div>
+            
+         </div>
+
+<!-- 
+         <div class="video-container">
+            <div class="thumbnail-div">
+             <img class="thumbnail" src="images/thumbnail/thumb3.webp" alt="">
+             <div class="video-time">12:30</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="images/profile/progile3.jpg" alt="" class="logo">
+               
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="images/profile/progile3.jpg" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">SuperSimpleDev</div>
+                         <div class="about-channel-details-subscribe-count">100k Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">30 Minutes of cry night | Slowed Reverb | LO-fi creation ||</p>
+                 <p class="video-author">SuperSimpleDev</p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+         
+            </div>
+            
+         </div> -->
+
+<!-- 
+         <div class="video-container">
+            <div class="thumbnail-div">
+             <img class="thumbnail" src="images/thumbnail/thumb4.webp" alt="">
+             <div class="video-time">12:50</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="images/profile/profile4.jpg" alt="" class="logo">
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="images/profile/profile4.jpg" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">SuperSimpleDev</div>
+                         <div class="about-channel-details-subscribe-count">1M Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">30 Minutes of cry night | Slowed Reverb | LO-fi creation ||</p>
+                 <p class="video-author">SuperSimpleDev</p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+         
+            </div>
+            
+         </div> -->
+
+
+         <div class="video-container">
+            <div class="thumbnail-div">
+             <img class="thumbnail" src="https://i.ytimg.com/vi/Rj8VWpQVGbI/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLCqtst9w3yEXzx0jZrDMjtZncFUNA" alt="">
+             <div class="video-time">6:22</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="https://yt3.ggpht.com/ytc/AOPolaRJjfJQ9LI8h4MTL_8r3c6LfwSyIqnbadV2YZs_NQ=s68-c-k-c0x00ffffff-no-rj" alt="" class="logo">
+                
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="https://yt3.ggpht.com/ytc/AOPolaRJjfJQ9LI8h4MTL_8r3c6LfwSyIqnbadV2YZs_NQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">Motive </div>
+                         <div class="about-channel-details-subscribe-count">500K Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">This Story will STOP your LAZINESS | Motivational Story in Malayalam</p>
+                 <p class="video-author">Motive </p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+         
+            </div>
+            
+         </div>
+
+
+         <div class="video-container">
+            <div class="thumbnail-div">
+             <img class="thumbnail" src="https://i.ytimg.com/vi/SoTIOIH94sA/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLC-I_Wci7gU0xr4IODerou1By6rNg" alt="">
+             <div class="video-time">4:00</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="https://yt3.ggpht.com/oqH0RVzX34duWuaV94_95xGGHrPU7BbyYK6rP7r-CSX3sC_HpduMLOZzYdyE-uXmqOl83T3ZIpk=s68-c-k-c0x00ffffff-no-rj" alt="" class="logo">
+               
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="https://yt3.ggpht.com/oqH0RVzX34duWuaV94_95xGGHrPU7BbyYK6rP7r-CSX3sC_HpduMLOZzYdyE-uXmqOl83T3ZIpk=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">HarmoniousVerse</div>
+                         <div class="about-channel-details-subscribe-count">2.3M Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">50 minutes pure Lofi Tracks l relax and enjoy l study music l sad motivation l love lofi l bollywood</p>
+                 <p class="video-author">HarmoniousVerse</p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+         
+            </div>
+            
+         </div>
+         <div class="video-container">
+            <div class="thumbnail-div">
+             <img class="thumbnail" src="https://i.ytimg.com/vi/xXCsisTiBkc/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLD4C8xnkmDcMJzLG7FJdj8nND983A" alt="">
+             <div class="video-time">4:00</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="https://yt3.ggpht.com/ytc/AOPolaRzTseYovKelIkbUqaWF4mik9XtRLNMAFPQ8Ksuuw=s68-c-k-c0x00ffffff-no-rj" alt="" class="logo">
+               
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="https://yt3.ggpht.com/ytc/AOPolaRzTseYovKelIkbUqaWF4mik9XtRLNMAFPQ8Ksuuw=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">Jinson Abraham</div>
+                         <div class="about-channel-details-subscribe-count">2.3M Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">HTML/CSS Rapidfire Crash Course Malayalam - Day #06</p>
+                 <p class="video-author">Jinson Abraham</p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+         
+            </div>
+            
+         </div>
+         <div class="video-container">
+            <div class="thumbnail-div">
+             <img class="thumbnail" src="https://i.ytimg.com/vi/ZbX4Ok9YX94/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLDokvQu2_HxJ3PFTZjE8fqtXJ3G_w" alt="">
+             <div class="video-time">4:00</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="https://yt3.ggpht.com/O8iON5EAVx6HVKyOV5UMreLFI_0D3mJX373vTEGoNcVRpNP7Lq8swha7BSLWTiEWlZaF7a4ENW8=s68-c-k-c0x00ffffff-no-rj" alt="" class="logo">
+               
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="https://yt3.ggpht.com/O8iON5EAVx6HVKyOV5UMreLFI_0D3mJX373vTEGoNcVRpNP7Lq8swha7BSLWTiEWlZaF7a4ENW8=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">Code With Antonio</div>
+                         <div class="about-channel-details-subscribe-count">2.3M Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">Fullstack Discord Clone: Next.js 13,  React, Socket.io, Prisma, Tailwind, MySQL | Full Course 2023</p>
+                 <p class="video-author">Code With Antonio</p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+         
+            </div>
+            
+         </div>
+         <div class="video-container">
+            <div class="thumbnail-div">
+             <img class="thumbnail" src="https://i.ytimg.com/vi/KYUgB0nUP-k/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAMbb7CCCBhJBGybMp2D58WiE3AaA" alt="">
+             <div class="video-time">4:00</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="https://yt3.ggpht.com/ytc/AOPolaSJUHnexxGuC7kfgQ88HqyTzAbdb5GHqtQWerbTyg=s68-c-k-c0x00ffffff-no-rj" alt="" class="logo">
+               
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="https://yt3.ggpht.com/ytc/AOPolaSJUHnexxGuC7kfgQ88HqyTzAbdb5GHqtQWerbTyg=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">Cinemagic</div>
+                         <div class="about-channel-details-subscribe-count">2.3M Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">എന്ത് കൊണ്ട് ഗ്രാവിറ്റി ഇല്ല ?  Theory of Relativity Explained | Cinemagic</p>
+                 <p class="video-author">Cinemagic</p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+         
+            </div>
+            
+         </div>
+         <div class="video-container">
+            <div class="thumbnail-div">
+             <img class="thumbnail" src="https://i.ytimg.com/vi/NLJ-LY9a8V4/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLA_vzqXqf-xlWLJ1C2S5vuBj7oCbw" alt="">
+             <div class="video-time">4:00</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="https://yt3.ggpht.com/ytc/AOPolaQ4a4ajPr02CUO1V6vb-SVFb-_Xi2Yc8xS9uqaUvQ=s68-c-k-c0x00ffffff-no-rj" alt="" class="logo">
+               
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="https://yt3.ggpht.com/ytc/AOPolaQ4a4ajPr02CUO1V6vb-SVFb-_Xi2Yc8xS9uqaUvQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">Akhil Nrd</div>
+                         <div class="about-channel-details-subscribe-count">2.3M Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">കല്യാണത്തിന് സ്ഥിരമായി പണി കൊടുക്കുന്ന യുവാവിന് സംഭവിച്ചത് 🤣</p>
+                 <p class="video-author">Akhil Nrd</p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+         
+            </div>
+            
+         </div>
+         <div class="video-container">
+            <div class="thumbnail-div">
+             <img class="thumbnail" src="https://i.ytimg.com/vi/7J3ixrnWu6Y/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLDOtEEVLOfuiN7v5wjSMGyKeLSkMg" alt="">
+             <div class="video-time">4:00</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="https://yt3.ggpht.com/INLpai6N3w7kMFNMdK5nT8v9Ab1T1mg0wzYfPPSaXwe1_r0_BXTkQMyjwh6oXu5kziLCpkZM=s68-c-k-c0x00ffffff-no-rj" alt="" class="logo">
+               
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="https://yt3.ggpht.com/INLpai6N3w7kMFNMdK5nT8v9Ab1T1mg0wzYfPPSaXwe1_r0_BXTkQMyjwh6oXu5kziLCpkZM=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">Milestone Makers</div>
+                         <div class="about-channel-details-subscribe-count">2.3M Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">Kaztro Gaming Home Tour | Gaming Room Explore | Family Interview | Benz | Parvathy |Milestone Makers</p>
+                 <p class="video-author">Milestone Makers</p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+         
+            </div>
+            
+         </div>
+         <div class="video-container">
+            <div class="thumbnail-div">
+             <img class="thumbnail" src="https://i.ytimg.com/vi/lnlB2ze0xZg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDf8DyChc2CbP1b-Lz91coOPH75YA" alt="">
+             <div class="video-time">4:00</div>
+            </div>
+            <div class="thumbnail-details">
+             <div class="video-logo"><img src="images/profile/profile6.jpg" alt="" class="logo">
+               
+                <div class="about-channel">
+                    <div class="about-channel-logo">
+                         <img src="images/profile/profile6.jpg" alt="">
+                    </div>
+                    <div class="about-channel-details">
+                         <div class="about-channel-details-name">SuperSimpleDev</div>
+                         <div class="about-channel-details-subscribe-count">2.3M Subscribers</div>
+                    </div>
+                </div>
+            </div>
+             <div class="video-details">
+                 <p class="video-title">30 Minutes of cry night | Slowed Reverb | LO-fi creation ||</p>
+                 <p class="video-author">SuperSimpleDev</p>
+                 <p class="video-stat">3.3M views &#183; 6 month ago </p>
+             </div>
+         
+            </div>
+            
+         </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,193 @@
+header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(235, 229, 229);
+    z-index: 100;
+}
+
+
+
+
+.header-left{
+    /* background-color: antiquewhite; */
+    
+    display: flex;
+    align-items: center;
+}
+.navbtn{
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    vertical-align: top;
+    margin-left: 24px;
+   
+}
+.youtube-logo{
+    width: 120px;
+    height: 25px;
+    object-fit: cover;
+    /* vertical-align: top; */
+}
+
+
+
+
+.header-center{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    /* flex direction defualt is row */
+}
+
+.search-btn{
+    height: 40px;
+    width: 66px;
+    /* flex: 70px; */
+    background-color: rgb(240,240,240);
+    border: 1px solid rgb(181, 179, 179);
+    margin-left: -1px;
+    margin-right: 10px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    
+
+
+}
+.voice-btn{
+    height: 40px;
+    width: 40px;
+    /* flex: 50px; */
+    border-radius:20px ;
+    border: none;
+    margin-top: 4px;
+    background-color:rgb(245, 243, 243) ;
+    position: relative;
+
+}
+.voice-btn,.search-btn,.create-btn,.notification-btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.voice-btn .toltip, .search-btn .toltip , .notification-btn .toltip,.create-btn .toltip{
+  
+    position: absolute;
+    bottom: -30px;
+    color: white;
+    background-color: gray;
+    padding: 4px 8px 4px 8px;
+    border-radius:4px ;
+    font-size: 12px;
+    visibility: hidden;  /* or pointer-event:none*/
+    transition: opacity 0.15s;
+    white-space: nowrap;
+  }
+  .voice-btn:hover .toltip,.search-btn:hover .toltip,.notification-btn:hover .toltip,.create-btn:hover .toltip{
+  visibility: visible;
+  }
+  
+
+.voice-btn-icon{
+    height:40px;
+    margin-left: 3px;
+}
+.search-bar{
+    flex: 1;
+    height: 36px;
+    padding-left: 12px;
+    font-size: 16px;
+    border: 1px solid rgb(181, 179, 179);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.15);
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+    width: 0px;
+}
+.search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size:16px;
+}
+.search-btn-icon{
+    height: 25px;
+    width: 100%;
+    margin-top: 4px;
+   
+}
+
+
+
+
+
+.header-right
+{
+    /* background-color: aqua; */
+    /* width: 350px; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-shrink: 0; /* this is used to avoid shrinking while screeen size decreesing*/
+}
+.create-btn{
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    margin-right: 18px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+
+
+
+
+.notification-btn{
+    height: 35px;
+    width: 35px;
+    background-color: transparent;
+    border: none;
+    margin-right: 18px;
+    border-radius: 20px;
+    position: relative;
+    
+    
+}
+
+
+
+
+
+.notification-cnt{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Roboto,Arial;
+    font-size: 10px;
+    padding: 4px 4px 4px 4px;
+    background-color: rgb(201, 3, 3);
+    color: white;
+    border-radius:10px ;
+}
+.author-logo{
+    height: 40px;
+    width: 40px;
+    margin-right: 30px;
+    border-radius: 20px;
+    
+}
+.create-btn:hover{
+    background-color: rgb(224, 220, 220);
+}
+.notification-btn:hover{
+    background-color: rgb(224, 220, 220);
+}

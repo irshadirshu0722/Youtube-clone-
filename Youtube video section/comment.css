@@ -1,0 +1,159 @@
+.comment-section{
+    margin-top: 40px;
+}
+
+.comment-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.comment-heading button{
+    width: 30px;
+
+    border: none;
+    background-color: transparent;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.comment-heading span{
+    font-size: 16px;
+}
+.comment-input-section{
+    display: flex;
+    
+}
+.comment-logo{
+   width: 46px;
+}
+.comment-logo img{
+    width: 100%;
+    border-radius: 23px;
+}
+.comment-input{
+    width: 100%;
+    margin-left: 10px;
+   
+}
+.comment-input-section input{
+    width:100%;
+    border: none;
+    outline: none;
+    
+}
+
+/* .comment-input-section:focus-within .comment-input-focus-div {
+    display: flex;
+  }
+  
+  .comment-input-focus-div div button:nth-child(1):active -within .comment-input-focus-div{
+    display: none;
+  } */
+
+hr{
+    margin: 0px;
+}
+.comment-input-focus-div{
+    display: flex;
+    justify-content: space-between;
+    flex: row;
+    margin-top: 5px;
+    display: none;  
+}
+.comment-input-focus-div button:first-child{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+}
+.comment-input-focus-div div button{
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+  border-radius: 20px;
+}
+.comment-input-focus-div div button:hover{
+   background-color: rgb(232, 231, 231);
+}
+.all-commend{
+    margin-top: 30px;
+}
+.all-commend .comment-left{
+    display: flex;
+
+   
+}
+.comment{
+    margin-top: 5px;
+}
+.comment-right{
+    display: none;
+}
+.all-commend .user-comment{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+
+.user-comment:hover .comment-right{
+    display: block;
+}
+p{
+    margin: 0px;
+    font-size: 15px;
+    font-family: Roboto,Arial;
+}
+.all-commend div .details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.all-commend div .logo{
+    width: 40px;
+    height: 40px;
+}
+.all-commend div img{
+   width: 100%;
+}
+
+.commented-user-name{
+    color: black;
+}
+.commented-user-name span{
+    color: rgb(123, 118, 118);
+    margin-left: 5px;
+}
+.all-commend button{
+margin-top: 5px;
+
+ height: 20px;
+ background-color: transparent;
+ border: none;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ color: rgb(97, 95, 95);
+ margin-right: 10px;
+
+}
+
+.all-commend button:hover{
+    border-radius: 20px;
+background-color: rgb(226, 224, 224);
+}
+.all-commend svg{
+
+ height: 100%;
+ width: 20px;
+ margin-right: 5px;
+
+
+}
+.like-reply{
+    display: flex;
+    align-items: center;
+    
+
+}
